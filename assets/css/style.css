@@ -1,0 +1,18 @@
+body {
+    background: #191716;
+    color: #af9bb6;
+}
+.nav-extended {
+    background: #440d0f;
+}
+nav ul li a {
+    color: #84596b;
+}
+.tabs.tabs-transparent .tab a:hover,
+.tabs.tabs-transparent .tab a.active {
+    color: #84596b;
+}
+.tabs.tabs-transparent .indicator {
+    background-color: #84596b;
+    height: 3px;
+}
