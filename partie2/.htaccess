@@ -1,0 +1,8 @@
+<ifmodule mod_rewrite.c>
+# changement de m'écriture de l'url : 
+RewriteEngine On
+# première partie (après ^) format d'adresse que l'on désire avec le nombre de page, on rappelle le nombre via $1, qui correspond à l'id du noeud XML # 
+RewriteRule "^(profil/[a-zA-z\-])" "index.php?profil-patient.php?id=$1"
+# affichage de la page d'erreur en cas de mauvaise url
+ErrorDocument 404 /error404.php 
+</ifmodule>

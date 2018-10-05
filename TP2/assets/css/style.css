@@ -1,11 +1,10 @@
-
-.home {
-background-color: #171819;
+.part1 {
+    background: #191716;
+    color: #af9bb6;
 }
-.title {
-    font-family: 'UnifrakturMaguntia', cursive;
-    font-size:  150px;
-    color: white;
+.part2 {
+       background: url(../../assets/img/nursesduckys.jpg) center no-repeat;
+
 }
 .nav-extended {
     background: #440d0f;
@@ -38,11 +37,3 @@ background-color: #171819;
 .btn-floating:hover {
     background: #84596b;
 }
-.card {
-    width: 300px;
-   
-}
-.card:hover {
-box-shadow: 6px 10px 17px 1px rgba(204,2,12,1);
-}
-
